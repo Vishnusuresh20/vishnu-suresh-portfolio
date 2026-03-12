@@ -958,6 +958,12 @@ pre {
         margin-top: 2rem;
     }
     
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .hero-content .name {
         font-size: 3.5rem;
     }
@@ -968,10 +974,19 @@ pre {
     
     .hero-content .description {
         margin: 0 auto 2.5rem;
+        text-align: center;
     }
 
     .contact-details {
         align-items: center;
+        text-align: left;
+    }
+    
+    .about-text {
+        text-align: center;
+    }
+    
+    .highlight-card {
         text-align: left;
     }
 }
@@ -1021,19 +1036,68 @@ pre {
         padding: 60px 0;
     }
     
+    .container {
+        padding: 0 1.5rem;
+    }
+    
     .hero {
         min-height: auto;
         padding: 120px 0 60px;
     }
+    
+    .highlight-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .skills-grid, .project-grid, .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-card, .service-card, .skill-category {
+        max-width: 400px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .category-header {
+        justify-content: center;
+    }
+    
+    .skill-tags {
+        justify-content: center;
+    }
+    
+    .project-info {
+        text-align: center;
+    }
+    
+    .project-tech {
+        justify-content: center;
+    }
+    
+    .project-links {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
     .hero-content .name {
         font-size: 2.8rem;
     }
     
     .hero-content .role {
         font-size: 1.5rem;
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        width: 100%;
     }
     
     .btn {
@@ -1054,5 +1118,15 @@ pre {
     
     .contact-form-wrapper {
         padding: 1.5rem;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .social-links {
+        justify-content: center;
     }
 }
