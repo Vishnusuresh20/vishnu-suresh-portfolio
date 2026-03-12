@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu Suresh | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="blob-wrapper">
+        <div class="blob top-left"></div>
+        <div class="blob bottom-right"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Vishnu<span class="gradient-text">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="name">Vishnu Suresh</h1>
+                    <h2 class="role">
+                        <span class="gradient-text">Java Full Stack Developer</span> <br/>
+                        <span class="fresher">(Fresher)</span> <br/> 
+                        <span class="sub-role">& Educational Consultant</span>
+                    </h2>
+                    <p class="description">
+                        Passionate Java developer focused on building scalable backend systems and modern web applications.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                        <a href="resume.pdf" class="btn btn-outline" download>
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal fade-left">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="window-content">
+                            <pre><code><span class="keyword">class</span> <span class="class-name">Developer</span> {
+    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">void</span> <span class="method-name">main</span>(<span class="type">String</span>[] <span class="variable">args</span>) {
+        <span class="type">String</span> <span class="variable">name</span> = <span class="string">"Vishnu Suresh"</span>;
+        <span class="type">String</span>[] <span class="variable">skills</span> = {<span class="string">"Java"</span>, <span class="string">"Spring Boot"</span>, <span class="string">"Web Dev"</span>};
+        
+        <span class="method-call">System.out.println</span>(<span class="string">"Building scalable systems!"</span>);
+    }
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text reveal">
+                        <p>
+                            I am a BCA graduate passionate about software development and web technologies. I completed a Java Full Stack Development course and have strong knowledge of Core Java, Object-Oriented Programming, and backend development. 
+                        </p>
+                        <p>
+                            I enjoy building web applications and solving real-world problems through programming. I am always eager to learn new technologies and refine my skills to build robust software systems.
+                        </p>
+                        <div class="role-card highlight-card reveal fade-up">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div class="role-info">
+                                <h3>Educational Consultant</h3>
+                                <p>Alongside programming, I am an educational consultant helping students secure college admissions. In the last 4 years, I have successfully helped many students navigate the college admission process.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Programming & Backend -->
+                    <div class="skill-category reveal fade-up" style="transition-delay: 100ms;">
+                        <div class="category-header">
+                            <i class="fa-brands fa-java skill-icon"></i>
+                            <h3>Programming & Backend</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Core Java</span>
+                            <span class="tag">Object Oriented Programming (OOP)</span>
+                            <span class="tag">Multithreading</span>
+                            <span class="tag">Exception Handling</span>
+                            <span class="tag">Hibernate</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-category reveal fade-up" style="transition-delay: 200ms;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code skill-icon"></i>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+
+                    <!-- Other Skills -->
+                    <div class="skill-category reveal fade-up" style="transition-delay: 300ms;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database skill-icon"></i>
+                            <h3>Other Skills</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">WordPress Website Development</span>
+                            <span class="tag">MySQL (Basic Database Knowledge)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal fade-up">
+                        <div class="project-img-wrapper">
+                            <div class="fallback-img placeholder-gradient-1">
+                                <i class="fa-solid fa-hospital"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Hospital Management System</h3>
+                            <p>Built using Java and Hibernate. Currently converting the project into a Spring Boot REST API application to modernize the tech stack.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Hibernate</span>
+                                <span>Spring Boot</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal fade-up" style="transition-delay: 100ms;">
+                        <div class="project-img-wrapper">
+                            <div class="fallback-img placeholder-gradient-2">
+                                <i class="fa-solid fa-music"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Musical Interface Project</h3>
+                            <p>Interactive music search interface with a search bar that redirects to YouTube songs. Designed with a visually appealing background.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card reveal fade-up" style="transition-delay: 200ms;">
+                        <div class="project-img-wrapper">
+                            <div class="fallback-img placeholder-gradient-3">
+                                <i class="fa-solid fa-film"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Netflix Clone Website</h3>
+                            <p>A front-end clone of the popular Netflix streaming platform, focusing on responsive design and modern web layouts.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card reveal fade-up" style="transition-delay: 300ms;">
+                        <div class="project-img-wrapper">
+                            <div class="fallback-img placeholder-gradient-4">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Zomato Food Delivery Site</h3>
+                            <p>A Zomato-style food delivery website clone featuring restaurant listings, and visually engaging UI components.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section-padding bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">My <span class="gradient-text">Achievements</span></h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <h3>BCA Graduate</h3>
+                            <p>Successfully completed my Bachelor of Computer Applications degree, building a strong foundation in computer science and programming.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item reveal fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon"><i class="fa-solid fa-certificate"></i></div>
+                            <h3>Java Full Stack Development</h3>
+                            <p>Completed a comprehensive Java Full Stack Development Course, mastering both frontend and backend technologies.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                            <h3>Project Milestones</h3>
+                            <p>Successfully designed and built multiple Java and Web Development projects including a Hospital Management System and interactive web apps.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon"><i class="fa-solid fa-users"></i></div>
+                            <h3>Educational Consulting Success</h3>
+                            <p>Successfully guided 5 students in securing college admissions and earned around ₹4 lakh commission over 4 years of consulting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card reveal fade-up">
+                        <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Portfolio Website Development</h3>
+                        <p>I build modern, responsive, and visually appealing personal portfolio websites that highlight your skills and projects elegantly.</p>
+                    </div>
+
+                    <div class="service-card reveal fade-up" style="transition-delay: 100ms;">
+                        <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+                        <h3>Business Website Creation</h3>
+                        <p>Creating professional online identities for businesses with modern layouts, fast load times, and responsive designs.</p>
+                    </div>
+
+                    <div class="service-card reveal fade-up" style="transition-delay: 200ms;">
+                        <div class="service-icon"><i class="fa-brands fa-wordpress"></i></div>
+                        <h3>WordPress Development</h3>
+                        <p>Custom WordPress website setup, theme customization, and content management solutions tailored to your needs.</p>
+                    </div>
+
+                    <div class="service-card reveal fade-up" style="transition-delay: 300ms;">
+                        <div class="service-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <h3>Student Admission Consulting</h3>
+                        <p>Guiding students through the college admission process, helping them make informed choices for their career path.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info reveal fade-up">
+                        <h3>Let's talk about your next project!</h3>
+                        <p>I'm currently available for freelance projects and full-time opportunities. Drop me a line and let's create something amazing together.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:vishnusuresh034@gmail.com">vishnusuresh034@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <a href="tel:+918137941259">+91 8137941259</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                                <div>
+                                    <h4>Instagram</h4>
+                                    <a href="https://instagram.com/_.vxshnx._" target="_blank">@_.vxshnx._</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Kerala, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper reveal fade-up" style="transition-delay: 200ms;">
+                        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                            <!-- Replace with your Access Key -->
+                            <input type="hidden" name="access_key" value="fa50b70b-b95d-4102-ba46-07a47a9c8dab">
+                            
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder=" ">
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder=" ">
+                                <label for="email">Your Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder=" ">
+                                <label for="phone">Your Phone Number</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <a href="#home">Vishnu<span class="gradient-text">.</span></a>
+            </div>
+            <div class="social-links">
+                <a href="mailto:vishnusuresh034@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://instagram.com/_.vxshnx._" target="_blank" class="social-icon" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Vishnu Suresh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
