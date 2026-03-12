@@ -995,6 +995,9 @@ pre {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
     }
     
     .hero-content .name {
@@ -1076,6 +1079,17 @@ pre {
     .hero {
         min-height: auto;
         padding: 120px 0 60px;
+        width: 100vw;
+    }
+    
+    .code-window {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .window-content pre {
+        font-size: 0.8rem;
+        white-space: pre-wrap;
     }
     
     .highlight-card {
@@ -1132,6 +1146,13 @@ pre {
     .hero-cta {
         flex-direction: column;
         width: 100%;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .hero-visual {
+        width: 100%;
+        padding: 0 0.5rem;
     }
     
     .btn {
