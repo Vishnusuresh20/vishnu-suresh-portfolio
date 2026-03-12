@@ -1079,17 +1079,25 @@ pre {
     .hero {
         min-height: auto;
         padding: 120px 0 60px;
-        width: 100vw;
+        width: 100%;
     }
     
     .code-window {
+        width: 100%;
         max-width: 100%;
         margin: 0 auto;
+        box-sizing: border-box;
+    }
+    
+    .window-content {
+        padding: 1.5rem;
     }
     
     .window-content pre {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
     
     .highlight-card {
@@ -1148,15 +1156,18 @@ pre {
         width: 100%;
         gap: 1rem;
         align-items: center;
+        justify-content: center;
     }
     
     .hero-visual {
         width: 100%;
-        padding: 0 0.5rem;
+        padding: 0;
+        box-sizing: border-box;
     }
     
     .btn {
-        width: 100%;
+        width: auto;
+        min-width: 250px;
     }
     
     .timeline::before {
