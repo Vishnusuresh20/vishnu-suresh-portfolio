@@ -290,6 +290,21 @@ p {
     width: 100%;
 }
 
+.nav-resume-btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.85rem;
+    border-radius: 50px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: 1rem;
+}
+
+.mobile-resume-li {
+    display: none;
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -1074,6 +1089,25 @@ pre {
 
     .nav-links.active {
         left: 0;
+    }
+
+    .nav-resume-btn {
+        display: none;
+    }
+
+    .mobile-resume-li {
+        display: block;
+        padding: 1.5rem 2rem 0.5rem;
+    }
+
+    .nav-resume-btn-mobile {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
     }
 
     .nav-link {
