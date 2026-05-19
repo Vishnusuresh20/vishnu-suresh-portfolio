@@ -1043,7 +1043,7 @@ pre {
     }
 
     .contact-details {
-        align-items: center;
+        align-items: flex-start;
         text-align: left;
     }
     
@@ -1286,9 +1286,10 @@ pre {
     }
     
     .contact-item {
-        flex-direction: column;
-        text-align: center;
-        gap: 0.5rem;
+        flex-direction: row;
+        text-align: left;
+        gap: 1rem;
+        align-items: center;
     }
     
     .social-links {
