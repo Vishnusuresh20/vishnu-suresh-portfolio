@@ -1153,8 +1153,8 @@ pre {
     
     .highlight-card {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
     }
     
     .skills-grid, .services-grid {
@@ -1199,11 +1199,11 @@ pre {
     }
     
     .category-header {
-        justify-content: center;
+        justify-content: flex-start;
     }
     
     .skill-tags {
-        justify-content: center;
+        justify-content: flex-start;
     }
     
     .project-info {
